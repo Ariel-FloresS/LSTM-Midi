@@ -20,7 +20,7 @@ idna==3.10
 Jinja2==3.1.4
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
-keras==3.6.0
+keras==2.15.0  # Cambiado a una versión compatible
 libclang==18.1.1
 Markdown==3.7
 markdown-it-py==3.0.0
@@ -66,4 +66,4 @@ tzdata==2024.2
 urllib3==2.2.3
 watchdog==5.0.3
 Werkzeug==3.0.4
-wrapt==1.14.1  # Cambiar a una versión compatible
+wrapt==1.14.1
