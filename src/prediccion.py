@@ -54,7 +54,7 @@ def predecir_siguiente_nota(notas: np.ndarray, modelo_keras: tf.keras.Model,
 
 
 def generar_notas(model: tf.keras.Model, filter_df: pd.DataFrame, 
-                  temperature: float = 2.0, num_predictions: int = 200, 
+                  temperature: float = 2.0, num_predictions: int = 120, 
                   seq_length: int = 25, vocab_size: int = 128) -> pd.DataFrame:
     """Genera notas musicales utilizando un modelo LSTM a partir de un DataFrame de notas.
 
