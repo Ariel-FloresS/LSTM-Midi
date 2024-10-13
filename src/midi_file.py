@@ -17,7 +17,7 @@ def dataframe_a_midi(df: pd.DataFrame, output_file: str) -> None:
     # Crear un objeto PrettyMIDI
     midi = pretty_midi.PrettyMIDI()
 
-    instrument_program = 0  # 0 es el piano acústico en General MIDI
+    instrument_program = 1  
     instrument = pretty_midi.Instrument(program=instrument_program)
 
     # Añadir notas al instrumento
