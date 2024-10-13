@@ -65,7 +65,7 @@ if selected_composer:
             # Crear el select_slider para seleccionar la temperatura
             temperatura = st.select_slider(
                 "Selecciona La Temperatura",
-                options=list(range(1, 101, 10))
+                options=list(range(1, 6))
             )
             # Botón para generar la predicción
             bandera = False
