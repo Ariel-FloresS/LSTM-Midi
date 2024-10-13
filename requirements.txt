@@ -37,7 +37,7 @@ packaging==23.2
 pandas==2.2.3
 pillow==10.4.0
 pretty-midi==0.2.10
-protobuf==4.25.5
+protobuf==4.23.0  # Cambia la versión aquí
 pyarrow==17.0.0
 pycparser==2.22
 pydeck==0.9.1
