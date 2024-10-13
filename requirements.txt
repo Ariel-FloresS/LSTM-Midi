@@ -20,14 +20,14 @@ idna==3.10
 Jinja2==3.1.4
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
-keras==2.15.0  # Cambiado a una versión compatible
+keras==3.6.0
 libclang==18.1.1
 Markdown==3.7
 markdown-it-py==3.0.0
 MarkupSafe==3.0.1
 mdurl==0.1.2
 mido==1.3.2
-ml-dtypes==0.2.0
+ml-dtypes==0.4.1
 namex==0.0.8
 narwhals==1.9.3
 numpy==1.26.4
@@ -37,7 +37,7 @@ packaging==23.2
 pandas==2.2.3
 pillow==10.4.0
 pretty-midi==0.2.10
-protobuf==4.23.0
+protobuf==4.25.5
 pyarrow==17.0.0
 pycparser==2.22
 pydeck==0.9.1
@@ -54,9 +54,10 @@ smmap==5.0.1
 soundfile==0.12.1
 streamlit==1.39.0
 tenacity==9.0.0
-tensorboard==2.15.0
+tensorboard==2.17.1
 tensorboard-data-server==0.7.2
-tensorflow==2.15.0
+tensorflow==2.17.0
+tensorflow-intel==2.17.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.5.0
 toml==0.10.2
@@ -66,4 +67,4 @@ tzdata==2024.2
 urllib3==2.2.3
 watchdog==5.0.3
 Werkzeug==3.0.4
-wrapt==1.14.1
+wrapt==1.16.0
