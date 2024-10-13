@@ -27,7 +27,7 @@ markdown-it-py==3.0.0
 MarkupSafe==3.0.1
 mdurl==0.1.2
 mido==1.3.2
-ml-dtypes==0.2.0  # Cambia la versión aquí
+ml-dtypes==0.2.0
 namex==0.0.8
 narwhals==1.9.3
 numpy==1.26.4
@@ -66,4 +66,4 @@ tzdata==2024.2
 urllib3==2.2.3
 watchdog==5.0.3
 Werkzeug==3.0.4
-wrapt==1.16.0
+wrapt==1.14.1  # Cambiar a una versión compatible
